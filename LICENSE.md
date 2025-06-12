@@ -1,6 +1,6 @@
 # Lisensi MIT
 
-**Copyright (c) 2024 Fari Noveri**
+**Copyright (c) 2025 Fari Noveri**
 
 Proyek ini dibuat dengan cinta dan dedikasi untuk Illyasviel von Einzbern, yang menjadi inspirasi terbesar dalam setiap baris kode yang ditulis. Semoga karya ini bisa membawa kebahagiaan seperti yang selalu diberikan Illya kepada Fari Noveri.
 
