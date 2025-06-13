@@ -8,6 +8,23 @@ Candy Crush Deluxe adalah permainan berbasis HTML5 yang mengajak pemain untuk me
 
 Proyek ini dibuat dengan cinta oleh **Fari Noveri**, yang menjadikan **Illyasviel von Einzbern** sebagai muse untuk menciptakan pengalaman bermain yang menyenangkan dan penuh semangat.
 
+
+## New UPDATE 
+
+Kami dengan bangga mengumumkan rilis stabil **v1.0.0** dari **Candy Crush Deluxe**! Rilis ini menghadirkan pengalaman bermain yang lebih mulus, efek suara combo yang memanjakan telinga, dan stabilitas yang ditingkatkan. Berikut adalah sorotan utama:
+
+- **Efek Suara Combo**: Nikmati efek audio dinamis untuk combo (2x, 3x, 4x, dan max) dengan file `combo_2x.mp3`, `combo_3x.mp3`, `combo_4x.mp3`, dan `combo_max.mp3`.
+- **Perbaikan Bug**: Mengatasi error `renderGridWithFallingAnimation` dengan menggabungkan metode `renderGrid` untuk animasi jatuh yang lebih halus.
+- **Optimalisasi Performa**: Pembersihan partikel untuk mencegah kebocoran memori, meningkatkan performa pada perangkat low-end.
+- **Stabilitas**: Batas rekursi pada `processMatches` untuk mencegah loop tak terbatas.
+- **Pengalaman Mobile**: Peningkatan event sentuh dengan pemeriksaan batas untuk interaksi yang lebih baik di perangkat mobile.
+- **Efek Visual**: Integrasi `screenShake` dan `animateScoreUpdate` untuk feedback visual yang lebih menarik.
+- **Aksesibilitas**: Atribut ARIA pada grid dan sel untuk mendukung pengguna dengan kebutuhan khusus.
+- **Game Over Modal**: Modal game over kini dibuat secara dinamis untuk keandalan.
+
+Lihat detail lengkap di [Release Notes](https://github.com/FariNoveri/candy-crush-deluxe/releases/).
+
+
 ## Fitur Utama
 
 - **Gameplay Match-3 yang Adiktif**: Cocokkan permen untuk mendapatkan poin dan selesaikan level.
